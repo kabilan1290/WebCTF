@@ -42,3 +42,8 @@ if (False) {
 
 ?>
 ```
+- As per the challenge source,the start parameter gets the user input where he value should not be in the blacklisted array or else the input will be blocked and also the value should be less than 5 characters or else it displays error.
+- If we give less than 5 characters and a character that is not in the blacklisted array,our input will executed as a command.
+- For example date,id,find were the commands worked
+- So the solution is to use the command `m4` which process the macro in a file ==> https://www.commandlinux.com/man-page/man1/m4.1.html
+- So if we input `m4 *` which will process the macro `$flag;` and print the flag in the source output.
