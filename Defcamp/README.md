@@ -48,4 +48,4 @@ if (False) {
 - So the solution is to use the command `m4` which process the macro in a file ==> https://www.commandlinux.com/man-page/man1/m4.1.html
 - So if we input `m4 *` which will process the macro `$flag;` and print the flag in the source output.
 
-                    <img src="">
+<img src="solutionparacode.png">
