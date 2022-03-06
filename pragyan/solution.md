@@ -30,3 +30,36 @@
 <p>- After a initial analysis on the image we were to find there are coordinates on each image metadata !</p>
 
 <img src="https://github.com/kabilan1290/WebCTF/blob/master/pragyan/coordinate.png">
+
+<p>- The total 90 images contains X coordinate ranges from 1 to 9 and y coordinates ranges from 1 to 10 but the images were not sorted!</p>
+  
+<p>- We can merge the images but first we need to sort them according to the coordinates and better i decided to change the images name according to the coordinates</p>
+
+<p>- I wrote a script to name the images with coordinates and i attached the script below.[Added comments for explanation]</p>
+
+```
+import os
+#Directory which has images
+a = os.listdir()
+
+# Command = exifool -G -Artist filename
+# The above command is used for extracting only particular information from exiftool data and we only interested in coordinates.
+command = "exiftool -G -Artist "
+for i in a:
+    x=os.popen('exiftool -G -Artist '+i).read()
+    # we getting the cordinates in the variable x
+    x =x.replace(' ', '')
+    # removing whitespaces
+    x =x[20:]
+    
+    os.system("cp "+i+" "+x)
+    #renaming the images with coordinate names
+    os.system("rm "+i)
+    #removing the orginal file
+  ```
+  
+  <p>- With the above script,we get the beautiful output as follows.
+  
+  <img src="https://github.com/kabilan1290/WebCTF/blob/master/pragyan/sorted.png">
+  
+  <p>- We got the result and to our plus,our images comes sorted and we can easily merge them with x and y coordinates.
