@@ -10,7 +10,7 @@
   <br>
 <img src="https://github.com/kabilan1290/WebCTF/blob/master/pragyan/Screenshot_2022-03-06_19-34-19.png">
   
-<p>- The webpage has the response as `sorry the portal is not accepting new assignments at this time`</p>
+<p>- The webpage has the response as `Sorry the portal is not accepting new assignments at this time`</p>
   
 <p>- Source code does not have anything interesting too! so going on with directory brutefoce we found an interesting directory named `response` .</p>
   
@@ -21,5 +21,5 @@
  
  <p>- Voilà ! it seems we found the culprit who submitted the assignment! Its dipensu and we have an option to download his assignment.</p>
   
-  <p>- Downloading the assignment gave us an zip file named >pieces and inside the zip we can see lot of image files.</p>
+  <p>- Downloading the assignment gave us an zip file named pieces and inside the zip we can see lot of image files.</p>
 
