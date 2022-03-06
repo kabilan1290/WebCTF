@@ -216,6 +216,6 @@ cv2.imwrite('output.jpg', im_v1)
 <img src="https://raw.githubusercontent.com/kabilan1290/WebCTF/master/pragyan/output.jpg">
 
 ### Flag:
-p_ctf{w3ll_d0n3_h4ck3r}
+<p>p_ctf{w3ll_d0n3_h4ck3r}</p>
 ----------------------------------------------------------------------------------------------------------------
 
