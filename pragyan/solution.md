@@ -12,7 +12,7 @@
   
 <p>- The webpage has the response as `Sorry the portal is not accepting new assignments at this time`</p>
   
-<p>- Source code does not have anything interesting too! so going on with directory brutefoce we found an interesting directory named `response` .</p>
+<p>- Source code does not have anything interesting too! so going on with directory brutefoce we found an interesting directory named `response`.</p>
   
   </p>- Upon visiting the endpoint,we get the below response.</p>
   
@@ -22,4 +22,10 @@
  <p>- Voilà ! it seems we found the culprit who submitted the assignment! Its dipensu and we have an option to download his assignment.</p>
   
   <p>- Downloading the assignment gave us an zip file named pieces and inside the zip we can see lot of image files.</p>
+  
+  <img src="https://github.com/kabilan1290/WebCTF/blob/master/pragyan/Screenshot_2022-03-06_19-37-39.png">
+  
+  <p>- Seems a image was separated into multiple parts and i thought of merging them together btw is it sorted in a order? and there was 90 separate images.</p>
+  
+  <p>- After a initial analysis on the image we were to find there are coordinates on each image metadata !</p>
 
