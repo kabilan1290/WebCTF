@@ -8,5 +8,7 @@
 
 <p>- Visting the link we are presented with the webpage ! hmm nothing interesting.
   
+<img src="https://github.com/kabilan1290/WebCTF/blob/master/pragyan/Screenshot_2022-03-06_19-34-19.png">
   
+<p>- The webpage has the response as `sorry the portal is not accepting new assignments at this time`
 
